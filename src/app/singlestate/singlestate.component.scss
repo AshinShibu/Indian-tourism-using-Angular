@@ -1,0 +1,54 @@
+.body
+{
+    background-image: url(https://t4.ftcdn.net/jpg/02/10/45/95/240_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg);
+    background-size: cover; 
+    background-position: center; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+   max-height: fit-content;
+    z-index: -1; 
+    background-repeat: no-repeat;
+}
+.t1
+{   font-size: 100px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 1s;
+    margin-top: 70px;
+    color: black;
+    opacity: 0.6;
+    text-align: center;
+
+    
+}
+.t2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    transition: 1s;
+    margin-top: 20px;
+    color:black;
+    text-align: center;
+    opacity: 0.6;
+
+}
+.im {
+    width: 500px; 
+    height: 500px;   
+    object-fit: cover; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.carousel-inner {
+    text-align: center; 
+    
+}
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    backdrop-filter: blur(10px);
+}

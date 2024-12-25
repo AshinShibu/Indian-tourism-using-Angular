@@ -1,0 +1,19 @@
+<div class="m1">
+    <!-- <app-nav></app-nav> -->
+    <div class="container">
+        <h1 class=" main text-center"> POPULAR PLACES</h1>
+
+        <div class="container text-center ">
+            <div class="row m-2">
+                @for (item of api.getstates(); track item.id) {
+                <div class="col">
+                    <app-card [data]="item"></app-card>
+                </div>
+
+                }
+            </div>
+        </div>
+
+    </div>
+
+</div>

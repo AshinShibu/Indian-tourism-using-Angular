@@ -1,0 +1,55 @@
+.main {
+    color: black;
+    font-size: 5rem;
+    font-weight: 800;
+    opacity: 0.6;
+    transition: 1s;
+}
+
+.m1 {
+    background-image: url(https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 160vh;
+    z-index: -1;
+
+}
+
+.t1 {
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 1s;
+}
+
+.t1:hover {
+    scale: 102%;
+    transition: 1s;
+    cursor: pointer;
+    font-size:medium;
+}
+
+.container {
+    margin-top: 60px;
+}
+.im{
+    width:50px;
+    
+}
+.co{
+    background-color: transparent;
+    box-shadow: 0px 0px 10px rgb(0, 8, 13);
+    backdrop-filter: blur(10px);
+    transition: 1s;
+    
+}
+.co:hover{
+    cursor: pointer;
+    transition: 1s;
+    scale: 102%;
+}

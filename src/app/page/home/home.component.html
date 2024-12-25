@@ -1,0 +1,45 @@
+<div class="m1">
+    <!-- <app-nav></app-nav> -->
+    <div class="container ">
+        <h1 class=" main text-center">Welcome to INDIA </h1>
+        <div class="container">
+            
+               
+                    <h1>About</h1>
+                    <h6>
+                        <p class="t1 pt-4">
+         India is a vibrant and diverse country renowned 
+         for its rich cultural heritage and stunning
+         landscapes. Key attractions include the iconic 
+         <strong>Taj Mahal</strong>in Agra, the tranquil backwaters of
+         <strong>Kerala</strong>, and the golden deserts of <strong>Rajasthan</strong>.
+         Nature lovers are drawn to the scenic hill 
+         stations of <strong>Shimla</strong> and <strong>Manali</strong>,while spiritual
+         seekers visit <strong>Varanasi</strong> and <strong>Rishikesh</strong>.
+         Adventurers explore the valleys of <strong>Ladakh</strong>, and
+         relaxation seekers flock to the beautiful 
+         beaches of <strong>Goa</strong> and the <strong>Andaman Islands</strong>,
+         making India a global tourism hub.
+                  </p>
+                    </h6>
+                </div>
+
+               <div class="co">
+                <owl-carousel-o [options]="customOptions">
+              
+                  <ng-container *ngFor="let slide of slidesStore">
+                    <ng-template carouselSlide [id].toString()="slide.id">
+                      <img class="im" [src]="slide.src" [alt]="slide.alt" >
+                    </ng-template>
+                  </ng-container>
+              
+                </owl-carousel-o>
+               </div> 
+                
+                
+                </div>
+            </div>
+
+        
+
+   

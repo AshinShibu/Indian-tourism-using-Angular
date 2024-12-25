@@ -1,0 +1,26 @@
+.m3 {
+    background-image: url('https://img.freepik.com/free-photo/vintage-pink-telephone-composition_23-2148913955.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh;
+    z-index: -1; 
+}
+
+.main
+{
+    color: black;
+    font-size: 5rem ;
+    font-weight: 800;
+    opacity: 0.5;
+    margin-top: 50px;
+    transition: 1s ;
+}
+.container{
+    margin-top: 60px;
+
+}
